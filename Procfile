@@ -1,1 +1,1 @@
-web: run-program gunicorn omg:app --workers=7
+web: gunicorn omg:app --workers=7
